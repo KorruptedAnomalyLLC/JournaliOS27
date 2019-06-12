@@ -11,6 +11,10 @@
 		0CEA55D322B1593A002DDFD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CEA55D122B1593A002DDFD5 /* Main.storyboard */; };
 		0CEA55D522B1593B002DDFD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CEA55D422B1593B002DDFD5 /* Assets.xcassets */; };
 		0CEA55D822B1593B002DDFD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CEA55D622B1593B002DDFD5 /* LaunchScreen.storyboard */; };
+		0CEA561122B19BF1002DDFD5 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEA561022B19BF1002DDFD5 /* Entry.swift */; };
+		0CEA561422B19CD8002DDFD5 /* EntryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEA561322B19CD8002DDFD5 /* EntryController.swift */; };
+		0CEA561722B1A62A002DDFD5 /* EntryListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEA561622B1A62A002DDFD5 /* EntryListTableViewController.swift */; };
+		0CEA561A22B1ABFE002DDFD5 /* EntryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEA561922B1ABFE002DDFD5 /* EntryDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		0CEA55D422B1593B002DDFD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CEA55D722B1593B002DDFD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CEA55D922B1593B002DDFD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CEA561022B19BF1002DDFD5 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		0CEA561322B19CD8002DDFD5 /* EntryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryController.swift; sourceTree = "<group>"; };
+		0CEA561622B1A62A002DDFD5 /* EntryListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryListTableViewController.swift; sourceTree = "<group>"; };
+		0CEA561922B1ABFE002DDFD5 /* EntryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,9 @@
 			children = (
 				0CEA560E22B19BAC002DDFD5 /* Resources */,
 				0CEA560F22B19BB4002DDFD5 /* Storyboards */,
+				0CEA561222B19BF5002DDFD5 /* Models */,
+				0CEA561522B19CDC002DDFD5 /* ModelControllers */,
+				0CEA561822B1A62F002DDFD5 /* ViewControllers */,
 			);
 			path = JournaliOS27;
 			sourceTree = "<group>";
@@ -75,6 +86,31 @@
 				0CEA55D622B1593B002DDFD5 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		0CEA561222B19BF5002DDFD5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0CEA561022B19BF1002DDFD5 /* Entry.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0CEA561522B19CDC002DDFD5 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0CEA561322B19CD8002DDFD5 /* EntryController.swift */,
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		0CEA561822B1A62F002DDFD5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0CEA561622B1A62A002DDFD5 /* EntryListTableViewController.swift */,
+				0CEA561922B1ABFE002DDFD5 /* EntryDetailViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +184,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CEA561422B19CD8002DDFD5 /* EntryController.swift in Sources */,
+				0CEA561122B19BF1002DDFD5 /* Entry.swift in Sources */,
+				0CEA561722B1A62A002DDFD5 /* EntryListTableViewController.swift in Sources */,
+				0CEA561A22B1ABFE002DDFD5 /* EntryDetailViewController.swift in Sources */,
 				0CEA55CE22B1593A002DDFD5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
